@@ -83,10 +83,19 @@ console.log("\n")
 console.log("Problem 6 ")
 
 function everyDivisible(n){
+    if(n < 10){
+
+    
+
     for(let numb = 0; numb <= 100; numb++){
     if(numb % n === 0){
     console.log(numb)
    }
 }
+
+}else if(n > 10){
+    console.log("To Big")
 }
-everyDivisible(5)
+
+}
+everyDivisible(12)
